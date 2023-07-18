@@ -702,3 +702,5 @@ sj_be(
   },
   1
 );
+_w["_sydConvConfig"].sydOptionSets += ",iycapbing,iyxapbing",
+_w["_sydConvConfig"].enableVisualSearch = true; 
