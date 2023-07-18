@@ -69,6 +69,5 @@ function si_T(a) {
   // }
   return true;
 }
-_w["_sydConvConfig"].sydOptionSets += ",iycapbing,iyxapbing",
-_w["_sydConvConfig"].enableVisualSearch = true; 
+
 _G.CTT = '3000';
