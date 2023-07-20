@@ -704,3 +704,4 @@ sj_be(
 );
 _w["_sydConvConfig"].sydOptionSets += ",iycapbing,iyxapbing",
 _w["_sydConvConfig"].enableVisualSearch = true; 
+_w["_sydConvConfig"].enableSydMic = true;
