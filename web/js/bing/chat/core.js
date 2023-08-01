@@ -16,5 +16,5 @@ _w.rms.js(
   { 'A:rms:answers:VisualSystem:ConversationScope': '/rp/YFRe970EMtFzujI9pBYZBGpdHEo.br.js' },
   { 'A:rms:answers:CodexBundle:cib-bundle': '/rp/qDj_vSk4lwNHvhfvxysB4-ldo6c.br.js' },
   { 'A:rms:answers:SharedStaticAssets:speech-sdk': '/rp/6slp3E-BqFf904Cz6cCWPY1bh9E.br.js' },
-  { 'A:rms:answers:Web:SydneyFullScreenConv': '/rp/R-NU1gYWw5NsYTEXrFn1hwhdP5g.br.js' },
+  { 'A:rms:answers:Web:SydneyFullScreenConv': '/rp/2BwrAKR2l9HZV6BTZonHj9yRnZ4.br.js' },
 );
