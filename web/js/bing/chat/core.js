@@ -17,4 +17,5 @@ _w.rms.js(
   { 'A:rms:answers:CodexBundle:cib-bundle': '/rp/qDj_vSk4lwNHvhfvxysB4-ldo6c.br.js' },
   { 'A:rms:answers:SharedStaticAssets:speech-sdk': '/rp/6slp3E-BqFf904Cz6cCWPY1bh9E.br.js' },
   { 'A:rms:answers:Web:SydneyFullScreenConv': '/rp/2BwrAKR2l9HZV6BTZonHj9yRnZ4.br.js' },
+  { 'A:rms:answers:SharedStaticAssets:docx': '/rp/Ob0pKopgLHdM4YkQO1HL2-6FwU4.br.js' },
 );
