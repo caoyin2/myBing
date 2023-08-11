@@ -11104,11 +11104,13 @@ const Ri = Zr("user-store", ()=>{
                 {
                     p[2].label = "夜间模式";
                     CIB.changeColorScheme(0);
-                    
+                    document.getElementsByClassName("fixed top-6 right-6 cursor-pointer z-50 n-image n-image--preview-disabled")[0].style.backgroundColor = "";
+''
                 }else{
 
                     p[2].label = "日间模式";
                     CIB.changeColorScheme(1);
+                    document.getElementsByClassName("fixed top-6 right-6 cursor-pointer z-50 n-image n-image--preview-disabled")[0].style.backgroundColor = '#777674';
                 }
                 break;
             case h.chatService:
@@ -12656,7 +12658,9 @@ const zv = (e,t)=>{
                 CIB.config.sydney.baseUrl = p.value,
                 CIB.config.speech.baseUrl = p.value,
                 f.value = !1,
-                localStorage['themeMode'] == 0 ? CIB.changeColorScheme(0) : CIB.changeColorScheme(1);
+                localStorage['themeMode'] == 0 ? (CIB.changeColorScheme(0),
+                document.getElementsByClassName("fixed top-6 right-6 cursor-pointer z-50 n-image n-image--preview-disabled")[0].style.backgroundColor = '')
+                : (CIB.changeColorScheme(1),document.getElementsByClassName("fixed top-6 right-6 cursor-pointer z-50 n-image n-image--preview-disabled")[0].style.backgroundColor = '#777674');
             else {
                 if (f.value = !0,
                 p.value = CIB.config.sydney.baseUrl,
