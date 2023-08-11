@@ -11076,9 +11076,6 @@ const Ri = Zr("user-store", ()=>{
             key: h.promptStore,
             label: "提示词库"
         }, {
-            key: h.setToken,
-            label: "设置用户"
-        }, {
             key: h.compose,
             label: "撰写文章",
             url: "/web/compose.html"
