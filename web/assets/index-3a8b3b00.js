@@ -11093,7 +11093,7 @@ const Ri = Zr("user-store", ()=>{
             var k;
             switch (P) {
             case h.version:
-                n.success("当前版本号为：2.0.0");
+                n.success("当前版本号为：2.0.1");
                 break;
             case h.theme:
                 localStorage['themeMode'] = localStorage['themeMode'] == 1 ? 0 : 1;
