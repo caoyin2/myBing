@@ -12506,8 +12506,8 @@ const zv = (e,t)=>{
         }
           , d = s=>{
             n.value = s.baseUrl,
-            CIB.manager.chat.api.bing.$host = p.value,
-            CIB.manager.chat.api.bing._endpoint = p.value,
+            CIB.manager.chat.api.bing.$host = s.baseUrl,
+            CIB.manager.chat.api.bing._endpoint = s.baseUrl,
             CIB.config.sydney.baseUrl = s.baseUrl,
             CIB.config.speech.baseUrl = s.baseUrl,
             r.value = !1
