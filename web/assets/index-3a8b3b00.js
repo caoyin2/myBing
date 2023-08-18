@@ -12506,6 +12506,8 @@ const zv = (e,t)=>{
         }
           , d = s=>{
             n.value = s.baseUrl,
+            CIB.manager.chat.api.bing.$host = p.value,
+            CIB.manager.chat.api.bing._endpoint = p.value,
             CIB.config.sydney.baseUrl = s.baseUrl,
             CIB.config.speech.baseUrl = s.baseUrl,
             r.value = !1
@@ -12652,6 +12654,8 @@ const zv = (e,t)=>{
           , z = ()=>{
             if (p.value)
                 st.set('_U', "", -1),
+                CIB.manager.chat.api.bing.$host = p.value,
+                CIB.manager.chat.api.bing._endpoint = p.value,
                 CIB.config.sydney.baseUrl = p.value,
                 CIB.config.speech.baseUrl = p.value,
                 f.value = !1,
