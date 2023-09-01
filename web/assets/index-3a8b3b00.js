@@ -11093,7 +11093,7 @@ const Ri = Zr("user-store", ()=>{
             var k;
             switch (P) {
             case h.version:
-                n.success("当前版本号为：2.0.1");
+                n.success("当前版本号为：2.0.2");
                 break;
             case h.theme:
                 localStorage['themeMode'] = localStorage['themeMode'] == 1 ? 0 : 1;
@@ -12654,6 +12654,7 @@ const zv = (e,t)=>{
           , z = ()=>{
             if (p.value)
                 st.set('_U', "", -1),
+                document.getElementsByClassName("fixed top-6 right-6 cursor-pointer z-50 n-image n-image--preview-disabled")[0].style.borderRadius = "90px",    
                 CIB.manager.chat.api.bing.$host = p.value,
                 CIB.manager.chat.api.bing._endpoint = p.value,
                 CIB.config.sydney.baseUrl = p.value,
